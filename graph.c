@@ -24,7 +24,7 @@ void cmd_shortest_path(struct GRAPH_NODE_ **head1,int size){
     if(scanf("%c", &c) == EOF){return;}
     if (c == ' '){if(scanf("%c", &c) == EOF){return;}}
     int dis = shortest_path(head1,b,c,size);
-    printf("Dijsktra shortest path: %d\n",dis);
+    printf("Dijsktra shortest path: %d \n",dis);
 }
 
 void cmd_TSP(struct GRAPH_NODE_ **head1,int size){
@@ -41,7 +41,7 @@ void cmd_TSP(struct GRAPH_NODE_ **head1,int size){
         path2[h] = r-'0';
     }
     int minTSPr = TSP(head1,path,sizeTsp,size);
-    printf("TSP shortest path: %d\n",minTSPr);
+    printf("TSP shortest path: %d \n",minTSPr);
 }
 
 void duplicateData( struct GRAPH_NODE_ ** h) {
