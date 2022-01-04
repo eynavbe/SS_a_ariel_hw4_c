@@ -86,6 +86,7 @@ int shortest_path(struct GRAPH_NODE_ **head1, int src, int dest,int size){
         i+=1;
         p5 = &((*p5)->next);
     }
+    index[i] = '\0';
     while (*p)
     {
         insertLastDis2((*p)->node_num,1111111111,&distance_path);
