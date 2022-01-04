@@ -15,7 +15,7 @@ edge* newEdge(int weight, edge *next, struct GRAPH_NODE_ **head1,int nodeId) {
     edge *p = (edge*) malloc (sizeof(edge));
     struct GRAPH_NODE_ **head = head1;
     p->weight = weight;
-    (p->endpoint) == NULL;
+    p->endpoint = NULL;
     while(*head){
         if( (*head)->node_num == nodeId) {
             p->endpoint = *head;
