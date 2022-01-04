@@ -104,7 +104,6 @@ bool cmd_TSP(struct GRAPH_NODE_ **head1,int size){
     }
     int minTSPr = TSP(head1,path,sizeTsp,size);
     printf("TSP shortest path: %d\n",minTSPr);
-    free(path);
     return test_end;
 }
 
