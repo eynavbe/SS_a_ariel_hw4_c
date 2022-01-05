@@ -225,7 +225,7 @@ void scanfEx4(){
 int main()
 {
     scanfEx4();
-    printGraphNode(&graph_node1);
+//     printGraphNode(&graph_node1);
     deleteAll(&graph_node1);
     free(graph_node1);
 }
