@@ -61,7 +61,7 @@ bool cmd_shortest_path(struct GRAPH_NODE_ **head1,int size){
         if(c == '\n'){test_end= True;break;}
     }
     int dis = shortest_path(head1,num1,num2,size);
-    printf("Dijsktra shortest path: %d\n",dis);
+    printf("Dijsktra shortest path: %d \n",dis);
     return test_end;
 }
 
@@ -104,7 +104,7 @@ bool cmd_TSP(struct GRAPH_NODE_ **head1,int size){
         path2[h] = num;
     }
     int minTSPr = TSP(head1,path,sizeTsp,size);
-    printf("TSP shortest path: %d\n",minTSPr);
+    printf("TSP shortest path: %d \n",minTSPr);
     return test_end;
 }
 
