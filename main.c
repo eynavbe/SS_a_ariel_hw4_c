@@ -9,13 +9,6 @@ typedef int bool;
 #define GRAPH_
 struct GRAPH_NODE_ * graph_node1;
 
-// void duplicateDataE( struct edge_ ** h) {
-//     struct edge_ ** h1 = h;
-//     while(*h1){
-//         h1 = &((*h1)->next);
-//     }
-// }
-
 void scanfEx4(){
     char a;
     char b;
